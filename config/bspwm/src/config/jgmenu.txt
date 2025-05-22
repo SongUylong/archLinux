@@ -45,6 +45,7 @@ Calendar,OpenApps --calendar,office-calendar
 ^tag(wm)
 Rice Editor,RiceEditor,preferences-desktop-theme
 Keybinds,OpenApps --KeyHelp,preferences-desktop-keyboard-shortcuts
+Sync Dotfiles,dotsync,document-save
 Restart WM,bspc wm -r,system-reboot
 Soft Reload,SoftReload,system-reboot
 Logout,bspc quit,system-log-out

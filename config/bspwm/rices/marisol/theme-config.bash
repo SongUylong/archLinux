@@ -73,7 +73,7 @@ jg_sel_fg="$fg"
 jg_sep="$blue"
 
 # Rofi menu font and colors
-rofi_font="JetBrainsMono NF Bold 9"
+rofi_font="JetBrainsMono NF Bold 20"
 rofi_background="$bg"
 rofi_bg_alt="$accent_color"
 rofi_background_alt="${bg}E0"

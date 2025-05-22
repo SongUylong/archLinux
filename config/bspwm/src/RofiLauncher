@@ -32,7 +32,7 @@ monitor_width=$(xrandr | grep -w -- "$focused_monitor" | grep -o '[0-9]\+x[0-9]\
 screen_dpi=$(xdpyinfo | awk '/resolution/{print $2; exit}' | cut -d 'x' -f1)
 
 # Calculate icon size
-icon_size=$(( (monitor_width * 11) / (${screen_dpi:-96} ) ))
+icon_size=$(( (monitor_width * 24) / (${screen_dpi:-96} ) ))
 rofi_override="element-icon{size:${icon_size}px;}"
 
 # Function to select the styles

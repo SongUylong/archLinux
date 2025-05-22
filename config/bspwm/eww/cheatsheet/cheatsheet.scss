@@ -6,16 +6,16 @@
 .title {
   font-family: JetBrainsMono NF;
   font-weight: Bolder;
-  font-size: 0.9rem;
+  font-size: 1.35rem;
   color: $magenta;
-  margin: 1.6rem 1.6rem 0 1.6rem;
+  margin: 2.4rem 2.4rem 0 2.4rem;
 }
 
 .title-info {
   font-family: JetBrainsMono NF;
   font-style: Italic;
-  font-size: 0.8rem;
-  margin-top: 3px;
+  font-size: 1.2rem;
+  margin-top: 5px;
   color: $fg;
 }
 
@@ -26,23 +26,23 @@
 .category-bspwm {
   font-family: JetBrainsMono NF;
   font-weight: Bold;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   background-color: $green;
   color: $bg;
-  margin: 8px 0;
-  padding: 2px 0;
-  border-radius: 2px;
+  margin: 12px 0;
+  padding: 3px 0;
+  border-radius: 3px;
 }
 
 .category-system {
   font-family: JetBrainsMono NF;
   font-weight: Bold;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   background-color: $red;
   color: $bg;
-  margin: 8px 0;
-  padding: 2px 0;
-  border-radius: 2px;
+  margin: 12px 0;
+  padding: 3px 0;
+  border-radius: 3px;
 }
 
 .category-nodes {
@@ -124,14 +124,14 @@
 
 .keys {
   font-family: BebasNeue;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: $fg;
 }
 
 .keys-alt {
   font-family: JetBrainsMono NF;
   font-weight: Bold;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   color: $fg;
 }
 
