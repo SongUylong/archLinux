@@ -103,6 +103,10 @@ super + alt + o
 ctrl + super + alt + {p,r,q,l,k,s}
 	{systemctl poweroff, systemctl reboot,bspc quit,ScreenLocker,xkill,SoftReload}
 
+# Sync dotfiles (added for dotfiles management)
+ctrl + super + alt + d
+	$HOME/dotfiles/dotfiles-sync.sh
+
 # Hide/Show Bar (Polybar and/or eww)
 super + alt + {h,u}
 	HideBar {-h,-u}
